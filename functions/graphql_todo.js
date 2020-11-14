@@ -20,9 +20,6 @@ const typeDefs = gql`
     item: String
   }
 
-  type Value {
-    item: String
-  }
 `
 
 const resolvers = {
