@@ -134,8 +134,9 @@ export default function Home() {
       <div>
       <List>
         {data?.items.map(curr => {
+
           return (
-            <div>
+            
             
             <ListItem
             key = {curr.id}
@@ -158,7 +159,6 @@ export default function Home() {
                 </IconButton>
               </ListItemSecondaryAction>
             </ListItem>
-            </div>
           )
         })}
         </List>
